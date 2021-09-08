@@ -1,16 +1,24 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  font-family: sans-serif;
+  font-size: 1.3rem;
 }
 
 body {
-  margin: 2rem;
-  display: flex;
+  margin: 0;
 }
 
-.colorDisplayBox {
-  height: 10rem;
-  width: 10rem;
-  border: black 1px solid;
-  border-radius: 15px;
+section {
+  margin: 5rem auto;
+  width: 250px;
+}
+
+form {
+  text-align: center;
+}
+
+#show-color {
+  aspect-ratio: 1/1;
+  margin-top: 1rem;
+  border-radius: 0.75rem;
 }
